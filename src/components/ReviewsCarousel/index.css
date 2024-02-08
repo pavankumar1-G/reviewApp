@@ -1,0 +1,98 @@
+/* Write your code here */
+.app-container {
+  display: flex;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+  min-height: 100vh;
+  padding: 20px;
+  font-family: Roboto;
+  background-size: cover;
+  
+}
+.arrow-btn {
+  background-color: transparent;
+  border-width: 0;
+  cursor: pointer;
+  
+}
+.arrow-image {
+  height: 30px;
+  width: 30px;
+}
+.review-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 35px;
+}
+.profile {
+  height: 100px;
+  width: 100px;
+}
+.user-name {
+  color: #ffffff;
+  font-weight: 500;
+}
+.company-name {
+  color: #171f46;
+  font-weight: 500;
+}
+.description {
+  color: #171f46;
+  font-size: 12px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .app-container {
+    display: flex;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+    min-height: 100vh;
+    padding: 40px;
+    font-family: Roboto;
+  }
+  .arrow-btn {
+    background-color: transparent;
+    border-width: 0;
+    cursor: pointer;
+  }
+  .arrow-image {
+    height: 50px;
+    width: 50px;
+  }
+  .review-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .heading {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  .profile {
+    height: 200px;
+    width: 200px;
+  }
+  .user-name {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 30px;
+  }
+  .company-name {
+    color: #171f46;
+    font-weight: 500;
+    font-size: 30px;
+  }
+  .description {
+    color: #171f46;
+    font-size: 20px;
+    text-align: center;
+  }
+}
